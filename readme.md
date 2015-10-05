@@ -13,13 +13,13 @@ $ npm install --save filenamify-url
 ## Usage
 
 ```js
-var filenamifyUrl = require('filenamify-url');
+const filenamifyUrl = require('filenamify-url');
 
 filenamifyUrl('http://sindresorhus.com/foo?bar=baz');
-//=> sindresorhus.com!foo!bar=baz
+//=> 'sindresorhus.com!foo!bar=baz'
 
 filenamifyUrl('http://sindresorhus.com/foo', {replacement: '🐴'});
-//=> sindresorhus.com🐴foo
+//=> 'sindresorhus.com🐴foo'
 ```
 
 
