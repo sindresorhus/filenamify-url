@@ -1,11 +1,15 @@
 'use strict';
-var filenamify = require('filenamify');
-var humanizeUrl = require('humanize-url');
 
-module.exports = function (str, opts) {
-	if (typeof str !== 'string') {
+const filenamify = require('filenamify');
+const humanizeUrl = require('humanize-url');
+
+const filenamifyUrl = (string, options) => {
+	if (typeof string !== 'string') {
 		throw new TypeError('Expected a string');
 	}
 
-	return filenamify(humanizeUrl(str), opts);
+	return filenamify(humanizeUrl(string), options);
 };
+
+module.exports = filenamifyUrl;
+module.exports.default = filenamifyUrl;

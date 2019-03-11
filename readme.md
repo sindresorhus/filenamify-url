@@ -25,8 +25,21 @@ filenamifyUrl('http://sindresorhus.com/foo', {replacement: '🐴'});
 
 ## API
 
-See the [`filenamify` API](https://github.com/sindresorhus/filenamify#api).
+### filenamifyUrl(input, [options])
 
+Accepts a URL and returns a valid filename.
+
+#### input
+
+Type: `string`
+
+A URL to convert to a valid filename.
+
+#### options
+
+Type: `Object`
+
+See the [`filenamify` Options](https://github.com/sindresorhus/filenamify#options).
 
 ## License
 
