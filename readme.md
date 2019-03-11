@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save filenamify-url
+$ npm install filenamify-url
 ```
 
 
@@ -39,7 +39,8 @@ A URL to convert to a valid filename.
 
 Type: `Object`
 
-See the [`filenamify` Options](https://github.com/sindresorhus/filenamify#options).
+See the [`filenamify` options](https://github.com/sindresorhus/filenamify#options).
+
 
 ## License
 

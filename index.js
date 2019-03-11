@@ -1,5 +1,4 @@
 'use strict';
-
 const filenamify = require('filenamify');
 const humanizeUrl = require('humanize-url');
 
