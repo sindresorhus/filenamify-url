@@ -11,4 +11,5 @@ const filenamifyUrl = (string, options) => {
 };
 
 module.exports = filenamifyUrl;
+// TODO: Remove this for the next major release
 module.exports.default = filenamifyUrl;
