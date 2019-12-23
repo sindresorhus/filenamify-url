@@ -2,13 +2,11 @@
 
 > Convert a URL to a valid filename
 
-
 ## Install
 
 ```
 $ npm install filenamify-url
 ```
-
 
 ## Usage
 
@@ -22,14 +20,13 @@ filenamifyUrl('http://sindresorhus.com/foo', {replacement: '🐴'});
 //=> 'sindresorhus.com🐴foo'
 ```
 
-
 ## API
 
-### filenamifyUrl(input, [options])
+### filenamifyUrl(url, options?)
 
 Accepts a URL and returns a valid filename.
 
-#### input
+#### url
 
 Type: `string`
 
@@ -37,11 +34,6 @@ A URL to convert to a valid filename.
 
 #### options
 
-Type: `Object`
+Type: `object`
 
 See the [`filenamify` options](https://github.com/sindresorhus/filenamify#options).
-
-
-## License
-
-MIT © [Sindre Sorhus](http://sindresorhus.com)

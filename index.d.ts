@@ -8,8 +8,8 @@ declare const filenamifyUrl: {
 	/**
 	Convert a URL to a valid filename.
 
-	@param input - A URL to convert to a valid filename.
-	@returns A valid filename for `input`.
+	@param url - A URL to convert to a valid filename.
+	@returns A valid filename for `url`.
 
 	@example
 	```
@@ -22,10 +22,10 @@ declare const filenamifyUrl: {
 	//=> 'sindresorhus.com🐴foo'
 	```
 	*/
-	(input: string, options?: filenamifyUrl.Options): string;
+	(url: string, options?: filenamifyUrl.Options): string;
 
 	// TODO: Remove this for the next major release, refactor the whole definition to:
-	// declare function filenamifyUrl(input: string, options?: Options): string;
+	// declare function filenamifyUrl(url: string, options?: Options): string;
 	// export = filenamifyUrl;
 	default: typeof filenamifyUrl;
 };

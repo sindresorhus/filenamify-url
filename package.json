@@ -4,6 +4,7 @@
 	"description": "Convert a URL to a valid filename",
 	"license": "MIT",
 	"repository": "sindresorhus/filenamify-url",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -35,8 +36,8 @@
 		"humanize-url": "^2.0.0"
 	},
 	"devDependencies": {
-		"ava": "^1.4.1",
-		"tsd": "^0.7.2",
-		"xo": "^0.24.0"
+		"ava": "^2.4.0",
+		"tsd": "^0.11.0",
+		"xo": "^0.25.3"
 	}
 }
