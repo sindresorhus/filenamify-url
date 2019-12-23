@@ -7,7 +7,7 @@ const filenamifyUrl = (string, options) => {
 		throw new TypeError('Expected a string');
 	}
 
-	return filenamify(humanizeUrl(string), options);
+	return filenamify(decodeURIComponent(humanizeUrl(string)), options);
 };
 
 module.exports = filenamifyUrl;

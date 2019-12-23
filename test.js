@@ -8,5 +8,5 @@ test('main', t => {
 	t.is(filenamifyUrl('http://user:pass@www.sindresorhus.com/foo/bar/'), 'sindresorhus.com!foo!bar');
 	t.is(filenamifyUrl('http://user@sindresorhus.com'), 'sindresorhus.com');
 	t.is(filenamifyUrl('sindresorhus.com/foo', {replacement: '🐴'}), 'sindresorhus.com🐴foo');
-	t.is(filenamifyUrl('http://www.sindresorhus.com/?query=pageres*|<>:"\\'), 'sindresorhus.com!query=pageres!%7C%3C%3E%3A%22%5C');
+	t.is(filenamifyUrl('http://www.sindresorhus.com/?query=pageres*|<>:"\\'), 'sindresorhus.com!query=pageres');
 });
