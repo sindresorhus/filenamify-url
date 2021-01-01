@@ -1,4 +1,4 @@
-# filenamify-url [![Build Status](https://travis-ci.org/sindresorhus/filenamify-url.svg?branch=master)](https://travis-ci.org/sindresorhus/filenamify-url)
+# filenamify-url
 
 > Convert a URL to a valid filename
 
