@@ -8,7 +8,7 @@
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
 	"engines": {
 		"node": ">=8"
@@ -28,12 +28,11 @@
 		"path",
 		"convert",
 		"valid",
-		"url",
-		"uri"
+		"url"
 	],
 	"dependencies": {
-		"filenamify": "^4.0.0",
-		"humanize-url": "^2.0.0"
+		"filenamify": "^4.3.0",
+		"humanize-url": "^2.1.1"
 	},
 	"devDependencies": {
 		"ava": "^2.4.0",
