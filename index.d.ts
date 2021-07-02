@@ -1,6 +1,8 @@
 import {Options as FilenamifyOptions} from 'filenamify';
 
-export type Options = FilenamifyOptions;
+declare namespace filenamifyUrl {
+	type Options = FilenamifyOptions;
+}
 
 declare const filenamifyUrl: {
 	/**
@@ -20,7 +22,7 @@ declare const filenamifyUrl: {
 	//=> 'sindresorhus.com🐴foo'
 	```
 	*/
-	(url: string, options?: Options): string;
+	(url: string, options?: filenamifyUrl.Options): string;
 
 	// TODO: Remove this for the next major release, refactor the whole definition to:
 	// declare function filenamifyUrl(url: string, options?: Options): string;
