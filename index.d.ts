@@ -1,7 +1,7 @@
-import {Options as FilenamifyOptions} from 'filenamify';
+import filenamify from 'filenamify';
 
 declare namespace filenamifyUrl {
-	export type Options = FilenamifyOptions;
+	type Options = filenamify.Options;
 }
 
 declare const filenamifyUrl: {
