@@ -1,4 +1,4 @@
-import filenamify from 'filenamify';
+import * as filenamify from 'filenamify';
 
 declare namespace filenamifyUrl {
 	type Options = filenamify.Options;
