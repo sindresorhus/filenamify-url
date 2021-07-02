@@ -20,7 +20,7 @@ declare const filenamifyUrl: {
 	//=> 'sindresorhus.com🐴foo'
 	```
 	*/
-	(url: string, options?: filenamifyUrl.Options): string;
+	(url: string, options?: Options): string;
 
 	// TODO: Remove this for the next major release, refactor the whole definition to:
 	// declare function filenamifyUrl(url: string, options?: Options): string;
