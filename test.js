@@ -1,5 +1,5 @@
 import test from 'ava';
-import filenamifyUrl from '.';
+import filenamifyUrl from './index.js';
 
 test('main', t => {
 	t.is(filenamifyUrl('sindresorhus.com'), 'sindresorhus.com');

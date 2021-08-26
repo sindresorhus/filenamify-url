@@ -11,7 +11,7 @@ $ npm install filenamify-url
 ## Usage
 
 ```js
-const filenamifyUrl = require('filenamify-url');
+import filenamifyUrl from 'filenamify-url';
 
 filenamifyUrl('http://sindresorhus.com/foo?bar=baz');
 //=> 'sindresorhus.com!foo!bar=baz'
