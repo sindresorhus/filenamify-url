@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install filenamify-url
+```sh
+npm install filenamify-url
 ```
 
 ## Usage
@@ -37,3 +37,9 @@ A URL to convert to a valid filename.
 Type: `object`
 
 See the [`filenamify` options](https://github.com/sindresorhus/filenamify#options).
+
+## Related
+
+- [filenamify-cli](https://github.com/sindresorhus/filenamify-cli) - CLI for this module
+- [filenamify](https://github.com/sindresorhus/filenamify) - Convert a string to a valid safe filename
+- [slugify](https://github.com/sindresorhus/slugify) - Slugify a string
