@@ -16,4 +16,3 @@ test('URLs', t => {
 	t.is(filenamifyUrl(new URL('http://user@sindresorhus.com')), 'sindresorhus.com');
 	t.is(filenamifyUrl(new URL('http://www.sindresorhus.com/?query=pageres*|<>:"\\')), 'sindresorhus.com!query=pageres');
 });
-
