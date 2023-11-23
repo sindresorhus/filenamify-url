@@ -21,7 +21,6 @@ filenamifyUrl('http://sindresorhus.com/foo', {replacement: '🐴'});
 
 filenamifyUrl(new URL('http://sindresorhus.com'));
 //=> 'sindresorhus.com'
-
 ```
 
 ## API
