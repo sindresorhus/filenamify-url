@@ -33,6 +33,7 @@
 		"url"
 	],
 	"dependencies": {
+		"@sindresorhus/is": "^6.1.0",
 		"filenamify": "^5.0.1",
 		"humanize-url": "^3.0.0"
 	},

@@ -18,6 +18,10 @@ filenamifyUrl('http://sindresorhus.com/foo?bar=baz');
 
 filenamifyUrl('http://sindresorhus.com/foo', {replacement: '🐴'});
 //=> 'sindresorhus.com🐴foo'
+
+filenamifyUrl(new URL('http://sindresorhus.com'));
+//=> 'sindresorhus.com'
+
 ```
 
 ## API
@@ -28,7 +32,7 @@ Accepts a URL and returns a valid filename.
 
 #### url
 
-Type: `string`
+Type: `string | URL`
 
 A URL to convert to a valid filename.
 
