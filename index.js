@@ -1,6 +1,5 @@
 import filenamify from 'filenamify';
 import humanizeUrl from 'humanize-url';
-import is from '@sindresorhus/is';
 
 export default function filenamifyUrl(url, options) {
 	if (!(typeof url === 'string' || url instanceof URL)) {
