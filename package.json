@@ -1,6 +1,6 @@
 {
 	"name": "filenamify-url",
-	"version": "3.0.0",
+	"version": "3.1.0",
 	"description": "Convert a URL to a valid filename",
 	"license": "MIT",
 	"repository": "sindresorhus/filenamify-url",
