@@ -15,8 +15,11 @@ filenamifyUrl('http://sindresorhus.com/foo?bar=baz');
 
 filenamifyUrl('http://sindresorhus.com/foo', {replacement: '🐴'});
 //=> 'sindresorhus.com🐴foo'
+
+filenamifyUrl(new URL('http://sindresorhus.com'));
+//=> 'sindresorhus.com'
 ```
 */
-export default function filenamifyUrl(url: string, options?: Options): string;
+export default function filenamifyUrl(url: string | URL, options?: Options): string;
 
 export {Options} from 'filenamify';
