@@ -43,6 +43,6 @@ See the [`filenamify` options](https://github.com/sindresorhus/filenamify#option
 
 ## Related
 
-- [filenamify-cli](https://github.com/sindresorhus/filenamify-cli) - CLI for this module
+- [filenamify-cli](https://github.com/sindresorhus/filenamify-cli) - CLI for this package
 - [filenamify](https://github.com/sindresorhus/filenamify) - Convert a string to a valid safe filename
 - [slugify](https://github.com/sindresorhus/slugify) - Slugify a string

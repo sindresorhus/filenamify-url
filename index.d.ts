@@ -1,4 +1,4 @@
-import {Options} from 'filenamify';
+import {type Options} from 'filenamify';
 
 /**
 Convert a URL to a valid filename.
